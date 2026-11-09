@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode/
+.idea/
+*.log
+.env
+.venv/
+venv/
+env/
+.git/
+
+# One-time optional GSD Core first-run prompt state
+.gsd-core-setup-asked

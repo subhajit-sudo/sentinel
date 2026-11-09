@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 80">
+  <defs>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#83B740;stop-opacity:0.08"/>
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#83B740;stop-opacity:0.05"/>
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <path d="M0 40 Q150 10 300 40 T600 40 T900 40 V80 H0Z" fill="url(#wave1)">
+    <animate attributeName="d" values="M0 40 Q150 10 300 40 T600 40 T900 40 V80 H0Z;M0 40 Q150 60 300 40 T600 40 T900 40 V80 H0Z;M0 40 Q150 10 300 40 T600 40 T900 40 V80 H0Z" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0 50 Q225 25 450 50 T900 50 V80 H0Z" fill="url(#wave2)">
+    <animate attributeName="d" values="M0 50 Q225 25 450 50 T900 50 V80 H0Z;M0 50 Q225 65 450 50 T900 50 V80 H0Z;M0 50 Q225 25 450 50 T900 50 V80 H0Z" dur="8s" repeatCount="indefinite"/>
+  </path>
+  <line x1="0" y1="1" x2="900" y2="1" stroke="#83B740" stroke-width="1.5" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
+  </line>
+</svg>
+
